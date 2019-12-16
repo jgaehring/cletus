@@ -1,7 +1,7 @@
 {
-  "name": "revery-quick-start",
-  "version": "1.3.0",
-  "description": "Revery quickstart",
+  "name": "cletus",
+  "version": "0.0.1",
+  "description": "The slack-jawed local-first markdown editor.",
   "license": "MIT",
   "esy": {
     "build": "refmterr dune build -p App",
@@ -11,9 +11,9 @@
     ]
   },
   "revery-packager": {
-    "bundleName": "ExampleApp",
+    "bundleName": "Cletus",
     "bundleId": "com.example.app",
-    "displayName": "Revery Example App",
+    "displayName": "Cletus - The slack-jawed local-first markdown editor.",
     "mainExecutable": "App",
     "windows": {
       "packages": ["zip"],

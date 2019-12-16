@@ -89,7 +89,7 @@ let simpleButton = {
 let init = app => {
   let _ = Revery.Log.listen((_, msg) => print_endline("LOG: " ++ msg));
 
-  let win = App.createWindow(app, "Welcome to Revery!");
+  let win = App.createWindow(app, "Cletus - The slack-jawed local-first markdown editor.");
 
   let containerStyle =
     Style.[
