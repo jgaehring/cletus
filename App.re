@@ -112,6 +112,17 @@ let init = app => {
         <animatedText delay=1. textContent="Revery" />
       </View>
       <simpleButton />
+      <OpenGL
+        style=containerStyle
+        render={(transform, _ctx) => {
+          Revery.Draw.Text.drawString(
+          ~window=Revery.UI.getActiveWindow(),
+          ~fontFamily="Roboto-Regular.ttf",
+          ~fontSize=16,
+          ~color=Colors.white,
+          "This text is rendered with OpenGL.",
+        )}}>
+      </OpenGL>
     </View>;
 
   let _ = UI.start(win, element);
